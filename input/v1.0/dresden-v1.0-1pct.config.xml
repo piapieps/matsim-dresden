@@ -8,10 +8,10 @@
 	</module>
 
 	<module name="controller">
-		<param name="lastIteration" value="500"/>
+		<param name="lastIteration" value="100"/>
 		<param name="overwriteFiles" value="failIfDirectoryExists"/>
 		<param name="runId" value="dresden-1pct"/>
-		<param name="outputDirectory" value="./output/output-dresden-1pct"/>
+		<param name="outputDirectory" value="./output2/output-dresden-1pct"/>
 		<param name="writeEventsInterval" value="100"/>
 		<param name="writePlansInterval" value="100"/>
 		<param name="enableLinkToLinkRouting" value="false"/>
@@ -26,7 +26,7 @@
 
 	<module name="network">
 		<param name="inputNetworkFile"
-			   value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/dresden/dresden-v1.0/input/dresden-v1.0-network-with-pt.xml.gz"/>
+			   value="input/v1.0/input_dresden-v1.0-network-with-pt.xml.gz"/>
 		<param name="laneDefinitionsFile" value="null"/>
 	</module>
 
